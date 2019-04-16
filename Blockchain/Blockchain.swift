@@ -10,6 +10,7 @@ import UIKit
 
 class Blockchain {
     //logic for the Blockchain here
+    
     var chain = [Block]()
     
     func createInitialBlock(data:String) {
@@ -29,4 +30,6 @@ class Blockchain {
         newBlock.index = chain.count
         chain.append(newBlock)
     }
+    
+    
 }
